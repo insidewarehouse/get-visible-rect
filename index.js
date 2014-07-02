@@ -1,8 +1,8 @@
-function zeroIfNegative(v) {
-	return v < 0 ? 0 : v;
-}
-
 function getVisibleRect(el) {
+
+	function zeroIfNegative(v) {
+		return v < 0 ? 0 : v;
+	}
 
 	var docElement = el.ownerDocument.documentElement;
 
@@ -39,6 +39,6 @@ function getVisibleRect(el) {
 
 }
 
-if (module) {
+if (typeof(module) != "undefined") {
 	module.exports = getVisibleRect;
 }
