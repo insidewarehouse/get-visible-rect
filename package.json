@@ -1,0 +1,24 @@
+{
+  "name": "get-visible-rect",
+  "version": "0.0.0",
+  "description": "Calculates the visible portion of the element inside the viewport",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:insidewarehouse/get-visible-rect.git"
+  },
+  "keywords": [
+    "DOM",
+    "browser",
+    "viewport"
+  ],
+  "author": "Dominykas Blyžė, InsideWarehouse <hello@dominykas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/insidewarehouse/get-visible-rect/issues"
+  },
+  "homepage": "https://github.com/insidewarehouse/get-visible-rect"
+}
