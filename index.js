@@ -12,16 +12,11 @@ function getVisibleRect(el) {
 	var rect = el.getBoundingClientRect();
 
 	// when element is not completely outside, calculate positions
-	if (!(rect.bottom < 0
-		|| rect.top > viewportHeight
-		|| rect.right < 0
-		|| rect.left > viewportWidth)) {
-
+	if (!(rect.bottom < 0 || rect.top > viewportHeight || rect.right < 0 || rect.left > viewportWidth )) {
 		var vStart = zeroIfNegative(-rect.top);
 		var vEnd = rect.height - zeroIfNegative(rect.bottom - viewportHeight);
 		var hStart = zeroIfNegative(-rect.left);
 		var hEnd = rect.width - zeroIfNegative(rect.right - viewportWidth);
-
 	}
 
 	return {

@@ -26,6 +26,7 @@
     "grunt": "0.4.x",
     "grunt-buster": "0.3.x",
     "grunt-cli": "0.1.x",
+    "grunt-contrib-watch": "0.6.x",
     "grunt-release": "0.7.x",
     "phantomjs": "1.9.x"
   }
