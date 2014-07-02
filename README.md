@@ -20,3 +20,7 @@ When the element is inside the viewport, `getVisibleRect()` returns:
 
 When element is outside the viewport, `visibleHeight` and `visibleWidth` will be `0`, 
 while `top`/`bottom`/`left`/`right` will be `undefined`.
+
+My primary purpose for building this (and not using something else) is to calculate the visible percentage of the 
+element. `visibleHeight` is actually `bottom - top` and `visibleWidth` is `right - left`. This means that the visible
+percentage is `(visibleHeight * visibleWidth) / (height * width)`.
