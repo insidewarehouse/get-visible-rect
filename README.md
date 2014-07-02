@@ -1,6 +1,8 @@
 ## getVisibleRect(el) ##
 
-Returns:
+[![Build Status](https://travis-ci.org/insidewarehouse/buster-extension-iife.svg?branch=master)](https://travis-ci.org/insidewarehouse/buster-extension-iife)
+
+When the element is inside the viewport, `getVisibleRect()` returns:
 ```
 {
 	visibleHeight,
