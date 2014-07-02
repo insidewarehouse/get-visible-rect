@@ -1,6 +1,6 @@
 ## getVisibleRect(el) ##
 
-[![Build Status](https://travis-ci.org/insidewarehouse/buster-extension-iife.svg?branch=master)](https://travis-ci.org/insidewarehouse/buster-extension-iife)
+[![Build Status](https://travis-ci.org/insidewarehouse/get-visible-rect.svg?branch=master)](https://travis-ci.org/insidewarehouse/get-visible-rect)
 
 When the element is inside the viewport, `getVisibleRect()` returns:
 ```
