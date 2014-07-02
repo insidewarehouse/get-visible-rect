@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/insidewarehouse/get-visible-rect.svg?branch=master)](https://travis-ci.org/insidewarehouse/get-visible-rect)
 
+Note: tests are failing, because they only run in PhantomJS on travis for now - enabling real browsers soon.
+
 When the element is inside the viewport, `getVisibleRect()` returns:
 ```
 {
