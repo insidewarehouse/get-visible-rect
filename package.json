@@ -4,7 +4,8 @@
   "description": "Calculates the visible portion of the element inside the viewport",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/grunt-cli/bin/grunt test"
+    "test": "node ./node_modules/grunt-cli/bin/grunt",
+    "start": "node ./node_modules/grunt-cli/bin/grunt start-dev"
   },
   "repository": {
     "type": "git",
@@ -23,11 +24,14 @@
   "homepage": "https://github.com/insidewarehouse/get-visible-rect",
   "devDependencies": {
     "buster": "0.7.x",
+    "buster-reporter-sauce": "0.1.x",
     "grunt": "0.4.x",
     "grunt-buster": "0.3.x",
     "grunt-cli": "0.1.x",
     "grunt-contrib-watch": "0.6.x",
+    "grunt-open": "0.2.x",
     "grunt-release": "0.7.x",
-    "phantomjs": "1.9.x"
+    "grunt-saucelabs": "8.x",
+    "resolve-bin": "0.3.x"
   }
 }

@@ -1,6 +1,7 @@
 ## getVisibleRect(el) ##
 
 [![Build Status](https://travis-ci.org/insidewarehouse/get-visible-rect.svg?branch=master)](https://travis-ci.org/insidewarehouse/get-visible-rect)
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/iw-get-visible-rect.svg)](https://saucelabs.com/u/iw-get-visible-rect)
 
 Note: tests are failing, because they only run in PhantomJS on travis for now - enabling real browsers soon.
 

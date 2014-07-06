@@ -8,5 +8,8 @@ config["get-visible-rect-tests"] = {
 	],
 	tests: [
 		"test/*.test.js"
+	],
+	extensions: [
+		require("buster-reporter-sauce")
 	]
 };
