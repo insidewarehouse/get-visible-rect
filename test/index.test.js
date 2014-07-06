@@ -51,6 +51,10 @@
 			createTestIframe(this, done);
 		},
 
+		"tearDown": function () {
+			this.iframe.parentNode.removeChild(this.iframe);
+		},
+
 		"testcase should be set up correctly": function () {
 			expect(this.iframe).toBeDefined();
 			expect(this.document).toBeDefined();
