@@ -1,6 +1,6 @@
 {
   "name": "get-visible-rect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Calculates the visible portion of the element inside the viewport",
   "main": "index.js",
   "scripts": {
